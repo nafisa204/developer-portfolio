@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .green-color{
     color:green;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 100px;
 }
@@ -30,10 +33,23 @@ section{
 }
 .top-banner{
     background-image: url("images/top-banner.png");
-    background-image: no-repeat;
+    background-repeat: no-repeat;
 }
 .DREAM-BIG{
     background-image:url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right ;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-iteam{
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px grey;
 }
